@@ -1,0 +1,12 @@
+echo ">update brews"
+brew update 
+brew outdated
+brew upgrade
+brew cleanup
+echo ">update brew casks"
+brew cask outdated
+brew cask upgrade
+brew cask cleanup
+
+echo ">App Store update"
+sudo softwareupdate -ia
