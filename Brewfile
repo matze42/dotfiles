@@ -1,36 +1,43 @@
-cask_args appdir: '/Applications'
+cask_args appdir: "/Applications"
 
-tap 'homebrew/bundle'
+tap "homebrew/cask-versions"
 tap "homebrew/core"
-tap "caskroom/fonts"
-tap "caskroom/cask"
+tap "homebrew/cask"
+tap "homebrew/bundle"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-drivers"
 
-brew 'ack'
-brew 'coreutils'
+cask "java"
+brew "ack"
+brew "asciidoctor"
+brew "coreutils"
 brew "git"
+brew "gradle"
 brew "maven"
-brew 'node'
-brew 'unrar'
-brew 'wget'
+brew "node"
 brew "sbt"
+brew "unrar"
+brew "wget"
 brew "zsh"
 brew "zsh-completions"
 
-cask "java"
 cask "caffeine"
 cask "docker"
+cask "google-chrome"
+cask "grandperspective"
 cask "iterm2"
+cask "keepassxc"
 cask "spectacle"
 cask "visual-studio-code"
-cask "caskroom/fonts/font-fira-code"
-cask "caskroom/fonts/font-firacode-nerd-font"
-cask '1password'
-cask 'google-chrome'
-#cask 'handbrake'
-#cask 'mapbox-studio'
-#cask 'seashore'
-#cask 'microsoft-teams'
-#cask 'steam'
-#cask 'transmission'
-#cask 'tunnelbear'
-#cask 'vlc'
+cask "homebrew/cask-fonts/font-fira-code"
+cask "homebrew/cask-fonts/font-firacode-nerd-font"
+cask "homebrew/cask-versions/java8"
+cask "1password"
+#cask "handbrake"
+#cask "mapbox-studio"
+#cask "seashore"
+#cask "microsoft-teams"
+#cask "steam"
+#cask "transmission"
+#cask "tunnelbear"
+#cask "vlc"
